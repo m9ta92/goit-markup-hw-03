@@ -32,17 +32,22 @@ a:hover {
 .container {
     background: #FFFFFF;
     width: 1440px;
-    left: 0px;
-    top: 0px;
+}
+
+img {
+    display: block;
 }
 
 /* HEADER */
 .header {
-    box-sizing: border-box;
     border-bottom: 1px solid #E7E9FC;
+}
+
+.header-elemetns {
     display: flex;
     flex-direction: row;
-    height: 72px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .logo-web {
@@ -53,6 +58,8 @@ a:hover {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
+    margin-left: 156px;
 }
 
 .logo-studio {
@@ -68,9 +75,9 @@ a:hover {
 .menu-nav {
     display: flex;
     flex-direction: row;
-    margin-top: 24px;
-    margin-left: 154px;
-    height: 24px;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -86,7 +93,6 @@ a:hover {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .menu:hover {
