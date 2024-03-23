@@ -31,7 +31,7 @@ a:hover {
 
 .container {
     background: #FFFFFF;
-    width: 1440px;
+    width: 1158px;
 }
 
 img {
@@ -44,11 +44,8 @@ img {
 }
 
 .header-elemetns {
-
     display: flex;
     flex-direction: row;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .logo-web {
@@ -77,7 +74,8 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
