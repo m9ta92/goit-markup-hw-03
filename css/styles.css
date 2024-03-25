@@ -43,7 +43,7 @@ img {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.container .header-elemetns {
+.header-elemetns .container {
     display: flex;
     flex-direction: row;
     padding: 0 15px;
@@ -140,8 +140,8 @@ img {
     padding-bottom: 188px;
 }
 
-.container .section-hero-container {
-    
+.section-hero-container .container {
+
 }
 
 .section-hero-title {
