@@ -46,11 +46,8 @@ img {
 .header-elemetns {
     display: flex;
     flex-direction: row;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    .container
+    padding: 0 15px;
+    padding: 24px 0;
 }
 
 .logo-web {
@@ -94,6 +91,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    
 }
 
 .menu:hover {
@@ -108,7 +106,7 @@ img {
     font-style: normal;
     display: flex;
     margin-left: 332px;
-    
+
 }
 
 .address-list {
@@ -138,13 +136,11 @@ img {
 /* Section - Hero image*/
 .section-hero {
     background-color: #2e2f42;
-}
-
-.section-hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
-    .container
 }
+
+.section-hero-container {}
 
 .section-hero-title {
     font-weight: 700;
