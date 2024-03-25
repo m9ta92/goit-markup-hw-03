@@ -43,7 +43,7 @@ img {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.header-elemetns {
+.container .header-elemetns {
     display: flex;
     flex-direction: row;
     padding: 0 15px;
@@ -91,7 +91,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+
 }
 
 .menu:hover {
@@ -140,7 +140,9 @@ img {
     padding-bottom: 188px;
 }
 
-.section-hero-container {}
+.container .section-hero-container {
+    
+}
 
 .section-hero-title {
     font-weight: 700;
