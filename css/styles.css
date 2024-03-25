@@ -30,7 +30,6 @@ a:hover {
 }
 
 .container {
-    background: #FFFFFF;
     width: 1440px;
 }
 
@@ -141,7 +140,7 @@ img {
 }
 
 .section-hero-container {
-
+max-width: 496px;
 }
 
 .section-hero-title {
