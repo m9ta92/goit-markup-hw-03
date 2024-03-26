@@ -46,15 +46,13 @@ img {
     display: flex;
     flex-direction: row;
     padding: 0 15px 0 15px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
 }
 
 .logo-web {
@@ -66,7 +64,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
-    
+
 }
 
 .logo-studio {
@@ -78,7 +76,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+
 }
 
 .menu-list-item {
@@ -129,7 +127,7 @@ img {
 
 /* HEADER */
 
-/* Section - Hero image*/
+/* Section 1 - Hero image*/
 .section-hero {
     background-color: #2e2f42;
     padding-top: 188px;
@@ -175,18 +173,33 @@ img {
     background-color: #404BBF;
 }
 
-/* Section - Hero image*/
+/* Section 1 - Hero image*/
 
-/* Section-1 */
-.section-one {
+/* Section 2 */
+.section-two {
+    padding: 120px 0 120px;
+}
+
+.section-two-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-list-li {
+    width: calc((100% - 72px) / 4);
+}
+
+
+.section-two-list-li-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
-.section-one-text {
+.section-two-list-li-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -194,7 +207,9 @@ img {
     color: #434455;
 }
 
-/* Section 2 - Our team */
+/* Section 2 */
+
+/* Section 3 - Our team */
 .our-team-section {
     background-color: #F4F4FD;
 }
@@ -231,7 +246,7 @@ img {
     color: #434455;
 }
 
-/* Section-3 */
+/* Section 4 */
 .our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
