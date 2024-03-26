@@ -45,13 +45,14 @@ img {
 .section-header {
     display: flex;
     flex-direction: row;
-    padding: 0 15px 0 15px;
+    padding: 24px 15px 24px 15px;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .logo-web {
