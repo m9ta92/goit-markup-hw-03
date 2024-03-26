@@ -45,8 +45,7 @@ img {
 .section-header {
     display: flex;
     flex-direction: row;
-    padding: 0 15px;
-    padding: 24px 0;
+    padding: 0 15px 0 15px;
 }
 
 .menu {
@@ -76,6 +75,7 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .menu-list-item {
