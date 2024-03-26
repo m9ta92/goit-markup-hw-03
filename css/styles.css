@@ -180,13 +180,19 @@ img {
     padding: 120px 0 120px;
 }
 
+.section-two-title {
+    visibility: hidden;
+}
+
 .section-two-list {
     display: flex;
+    flex-direction: row;
     gap: 24px;
+    padding-left: 100px;
 }
 
 .section-two-list-li {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4));
 }
 
 
