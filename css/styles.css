@@ -180,8 +180,8 @@ img {
     padding: 120px 0 120px;
 }
 
-.section-two-title {
-    visibility: hidden;
+.visually-hidden {
+    display: none;
 }
 
 .section-two-list {
