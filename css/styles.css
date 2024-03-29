@@ -42,7 +42,7 @@ img {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.first {
+.section-header {
     display: flex;
     flex-direction: row;
     padding: 0 15px 0 15px;
