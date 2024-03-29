@@ -23,6 +23,11 @@ p {
 ul {
     margin: 0;
     padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 a:hover {
@@ -30,7 +35,7 @@ a:hover {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
 }
 
 img {
@@ -79,7 +84,6 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-
 }
 
 .menu-list-item {
@@ -197,14 +201,14 @@ img {
     overflow: hidden;
 }
 
-.section-two-list {
+.section-two-li {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
     padding-left: 100px;
 }
 
-.section-two-list-item {
+.section-two-li-item {
     width: calc((100% - 72px) / 4);
 }
 
