@@ -204,7 +204,7 @@ img {
     padding-left: 100px;
 }
 
-.list-li {
+.section-two-list-li {
     width: calc((100% - 3 * 24px) / 4);
 }
 
