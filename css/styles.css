@@ -30,7 +30,7 @@ a:hover {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
 }
 
 img {
@@ -204,10 +204,7 @@ img {
     padding-left: 100px;
 }
 
-.section-two-list-li {
-    width: calc((100% - 72px) / 4);
-    width: calc((100% - 3 * 24px) / 4);
-    flex-basis: calc((100% - 3 * 24px) / 4);
+.li.item {
     flex-basis: calc((100% - 72px) / 4);
 }
 
