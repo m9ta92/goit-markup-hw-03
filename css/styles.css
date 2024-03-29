@@ -204,8 +204,8 @@ img {
     padding-left: 100px;
 }
 
-.li.item {
-    flex-basis: calc((100% - 72px) / 4);
+.section-two-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 
