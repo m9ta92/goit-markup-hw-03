@@ -207,10 +207,11 @@ img {
     flex-wrap: wrap;
     gap: 24px;
     padding-left: 100px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-two-li-item {
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 
 
