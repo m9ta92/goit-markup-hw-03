@@ -24,7 +24,7 @@ ul {
     margin: 0;
     padding-left: 0;
     list-style: none;
-    
+
 }
 
 a {
@@ -37,7 +37,8 @@ a:hover {
 
 .container {
     width: 1158px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 img {
@@ -51,18 +52,13 @@ img {
 
 .section-header {
     display: flex;
-    flex-direction: row;
     padding: 0 15px 0 15px;
+    align-items: center;
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-left: 156px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-
 }
 
 .logo-web {
@@ -74,6 +70,7 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+    padding: 24px 0 24px;
 
 }
 
@@ -95,6 +92,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0 24px;
+    display: block;
 }
 
 .menu-list-item:hover {
@@ -107,15 +105,14 @@ img {
 
 .address {
     font-style: normal;
-    margin-left: 332px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-left: auto;
 }
 
 .address-list {
     display: flex;
     flex-direction: row;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .address-email-tel {
@@ -206,10 +203,7 @@ img {
 
 .section-two-li {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
 
 ul li.section-two-li-item {
@@ -256,8 +250,6 @@ ul li.section-two-li-item {
 .our-team-list {
     display: flex;
     gap: 24px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
 
 .our-team {
@@ -318,8 +310,6 @@ ul li.section-two-li-item {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    margin-left: 156px;
-    margin-right: 156px;
 }
 
 .our-portfolio-project {
@@ -369,7 +359,6 @@ ul li.section-two-li-item {
     color: #4D5AE5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 156px;
 }
 
 .footer-logo-studio {
@@ -388,7 +377,6 @@ ul li.section-two-li-item {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    margin-left: 156px;
     max-width: 264px;
 }
 
